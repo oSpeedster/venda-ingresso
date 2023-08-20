@@ -444,40 +444,39 @@ span {
 
     .infocontato {
         padding: 100px 0 0 4px;
-        margin-top: 175px;
     }
 
     #titulo, .text {
-        font-size: 28px;
+        font-size: 22px;
     }
 
     #nome, .text {
-        width: 500px;
-        height: 50px;
+        width: 250px;
+        height: 25px;
         margin-top: 10px;
     }
 
     #comentario {
-        width: 500px;
-        height: 330px;
+        width: 300px;
+        height: 160px;
     }
 
     .enviarcoment {
-        width: 500px;
-        height: 100px;
+        width: 300px;
+        height: 60px;
     }
 
     .texto {
-        font-size: 40px;
+        font-size: 30px;
         margin-bottom: 5px;
     }
 
-    .contato {
-        margin-left: 0px;
+    .contato, #endereco-celular {
+        margin-left: -50px;
     }
 
     .contato-titulo {
-        margin-left: 0px;
+        margin-left: 120px;
     }
     
     #endereco {
@@ -490,12 +489,12 @@ span {
 
     .galeria {
         grid-template-columns: repeat(2, 1fr);
-        margin-left: 20px;
+        margin-left: 90px;
     }
 
     .fotos {
-        width: 300px;
-        height: 250px;
+        width: 200px;
+        height: 166px;
     }
 
     .footerContato {

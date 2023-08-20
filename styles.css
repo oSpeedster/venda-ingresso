@@ -406,7 +406,7 @@ span {
 
     #player {
         width: 100%;
-        margin-left: 15px;
+        margin-left: 5px;
     }
 
     #sinopse {
@@ -418,13 +418,13 @@ span {
 
     .desc {
         width: 100%;
-        margin-bottom: -200px;
+        margin-bottom: 30px;
         font-size: 30px;
     }
 
     .button {
         width: 100%;
-        margin-bottom: -100px;
+        margin-bottom: 0px;
     }
 
     .button- {

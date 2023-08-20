@@ -489,7 +489,7 @@ span {
 
     .galeria {
         grid-template-columns: repeat(2, 1fr);
-        margin-left: 0px;
+        margin-left: 10px;
     }
 
     .fotos {

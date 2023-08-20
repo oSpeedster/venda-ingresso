@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comentários</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="icon" href="./midia/spider-man-across-the-spider-verse-logo-removebg-preview.png" type="image/png">
+</head>
+<body>
+    <header>
+        <img class="logo" src="./midia/spider-man-across-the-spider-verse-logo-removebg-preview.png" type="image/png">
+        <nav>
+            <ul>
+                <a href="./index.html">
+                    <li>HOME</li>
+                </a>
+                <a href="./contato.html">
+                    <li>CONTATO</li>
+                </a>
+                <a href="./fotos.html">
+                    <li>FOTOS</li>
+                </a>
+                <a href="./comentarios.html">
+                    <li>COMENTÁRIOS</li>
+                </a>
+            </ul>
+        </nav>
+
+    </header>
+
+    <form class="form" action="./comentarios.html">
+
+        <label for="text">NOME</label>
+        <input style="display:block" class="text" id="nome" type="text" name="text" />
+        
+        <br>
+
+        <label for="text">AVALIAÇÃO</label>
+        <select style="display:block" class="avaliacao text" name="avaliacao">
+            <option class="avaliacao estrelas" value="1">★☆☆☆☆</option>
+            <option class="avaliacao estrelas" value="2">★★☆☆☆</option>
+            <option class="avaliacao estrelas" value="3">★★★☆☆</option>
+            <option class="avaliacao estrelas" value="4">★★★★☆</option>
+            <option class="avaliacao estrelas" value="5">★★★★★</option>
+        </select>
+
+        <br>
+
+        <label for="mensagem">COMENTÁRIO</label>
+        <textarea style="display:block" class="text" id="comentario" name="mensagem" rows="10"></textarea>
+
+        <br>
+        
+        <button class="enviarcoment">ENVIAR</button>
+    </form>
+
+    <footer>
+        <img class="footerimg" src="./midia/spider-man-across-the-spider-verse-logo-removebg-preview.png">
+        <span>Todos os direitos reservados ©</span>
+        <span>Desenvolvido por André Murilo</span>
+        <nav class="footernav">
+            <ul class="footerlist">
+                <a href="./index.html">
+                    <li>HOME</li>
+                </a>
+                <a href="./contato.html">
+                    <li>CONTATO</li>
+                </a>
+                <a href="./fotos.html">
+                    <li>FOTOS</li>
+                </a>
+                <a href="./comentarios.html">
+                    <li>COMENTÁRIOS</li>
+                </a>
+            </ul>
+        </nav>
+    </footer>
+
+</body>
+</html>

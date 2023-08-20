@@ -406,6 +406,7 @@ span {
 
     #player {
         width: 100%;
+        margin-left: 15px;
     }
 
     #sinopse {
@@ -417,16 +418,28 @@ span {
 
     .desc {
         width: 100%;
+        margin-bottom: -200px;
+        font-size: 30px;
     }
 
     .button {
         width: 100%;
-        margin-top: 30px;
+        margin-bottom: -100px;
+    }
+
+    .button- {
+        margin-bottom: -190px;
     }
 
     .cards-content {
         grid-template-columns: 1fr;
-        margin-top: 150px;
+        margin-top: 275px;
+    }
+
+    .card {
+        width: 80%;
+        height: 720px;
+        margin-left: 75px;
     }
 
     .infocontato {

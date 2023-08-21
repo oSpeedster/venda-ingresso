@@ -425,6 +425,7 @@ span {
     .button {
         width: 100%;
         margin-bottom: 0px;
+        margin-left: -20px;
     }
 
     .button- {
@@ -439,7 +440,7 @@ span {
     .card {
         width: 80%;
         height: 720px;
-        margin-left: 75px;
+        margin-left: 0px;
     }
 
     .infocontato {
